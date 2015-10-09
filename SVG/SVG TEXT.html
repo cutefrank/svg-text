@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>SVG TEXT</title>
+	</head>
+	<body>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+	<path id="mypath" d="M100 100Q400 50 350 250T450 250" style="fill:none;stroke:red;stroke-width:20;" />
+ 
+	<text x="15" y="30" style="fill:blue;font-size:40px;">
+		<textPath xlink:href="#mypath">這是一行文字</textPath>
+	</text>
+</svg>
+	</body>
+</html>
+
